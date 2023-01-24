@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-gnirts",
+  "version": "0.0.1",
+  "description": "A Vite Plugin for gnirts",
+  "main": "dist/vite-plugin-gnirts.cjs.js",
+  "module": "dist/vite-plugin-gnirts.es.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prebuild": "rm -rf dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamad-supangat/vite-plugin-gnirts.git"
+  },
+  "keywords": [
+    "vite",
+    "obfuscator",
+    "obfuscation",
+    "uglify",
+    "crush",
+    "code protection",
+    "gnirts",
+    "js obfuscator"
+  ],
+  "author": "moha.supangat@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamad-supangat/vite-plugin-gnirts/issues"
+  },
+  "homepage": "https://github.com/mohamad-supangat/vite-plugin-gnirts#readme",
+  "dependencies": {
+    "gnirts": "^1.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "rollup": "^2.76.0",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
