@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-gnirts",
+  "name": "@mohamad-supangat/vite-plugin-gnirts",
   "version": "0.0.1",
   "description": "A Vite Plugin for gnirts",
   "main": "dist/vite-plugin-gnirts.cjs.js",
